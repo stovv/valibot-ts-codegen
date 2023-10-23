@@ -1,0 +1,29 @@
+{
+  "name": "valibot-ts-codegen",
+  "description": "Generate valibot scheme from typescript type aliases",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "author": "Daniel Stavrov",
+  "scripts": {
+    "start": "ts-node ./index.ts --path ./test/*.ts --result ./example/valibot-schemas.ts",
+    "build": "tsc && ./node_modules/.bin/pkg ./build/index.js --output ./bin/vtc",
+    "postinstall": "build",
+    "example": "./bin/vtc --path ./test/*.ts --result ./example/valibot-schemas.ts"
+  },
+  "bin": {
+    "vtc": "./bin/vtc"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "ts-morph": "^20.0.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/node": "^20.8.7",
+    "pkg": "^5.8.1",
+    "@zeit/ncc": "^0.22.3",
+    "ts-node": "^10.9.1"
+  }
+}
