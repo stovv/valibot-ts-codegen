@@ -8,7 +8,7 @@
   "scripts": {
     "start": "ts-node ./index.ts --path ./test/*.ts --result ./example/valibot-schemas.ts",
     "build": "tsc && ./node_modules/.bin/pkg ./build/index.js --output ./bin/vtc",
-    "postinstall": "build",
+    "postinstall": "npm run build",
     "example": "./bin/vtc --path ./test/*.ts --result ./example/valibot-schemas.ts"
   },
   "bin": {
