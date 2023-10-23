@@ -29,13 +29,12 @@
   "dependencies": {
     "commander": "^11.1.0",
     "ts-morph": "^20.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "pkg": "^5.8.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.200",
     "@types/node": "^20.8.7",
-    "pkg": "^5.8.1",
-    "@zeit/ncc": "^0.22.3",
     "ts-node": "^10.9.1"
   }
 }
