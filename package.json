@@ -1,7 +1,7 @@
 {
   "name": "valibot-ts-codegen",
   "description": "Generate valibot scheme from typescript type aliases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "license": "MIT",
   "author": "Daniel Stavrov",
@@ -14,6 +14,14 @@
   "bin": {
     "vtc": "./bin/vtc"
   },
+  "files": [
+    "index.ts",
+    "tsconfig.json",
+    "yarn.lock",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "dependencies": {
     "commander": "^11.1.0",
     "ts-morph": "^20.0.0",
