@@ -1,7 +1,7 @@
 {
   "name": "valibot-ts-codegen",
   "description": "Generate valibot scheme from typescript type aliases",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "main.ts",
   "license": "MIT",
   "author": "Daniel Stavrov",
