@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "ts-node ./index.ts --path ./test/*.ts --result ./example/valibot-schemas.ts",
-    "build": "tsc && node ./node_modules/shebangify/shebangify.js ./build/index.js",
+    "build": "tsc && node ./node_modules/shebangify/shebangify.js ./build/index.js"
   },
   "bin": {
     "vtc": "./build/index.js"
