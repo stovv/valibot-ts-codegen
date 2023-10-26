@@ -1,4 +1,4 @@
-## Valibot TS codegen
+## [Valibot](https://valibot.dev) TS codegen
 
 Tool for autogenerate simple schema for valibot
 
